@@ -10,8 +10,7 @@ PLT_APPS = ssl
 # Dependencies.
 
 DEPS = cowlib ranch
-dep_cowlib = pkg://cowlib master
-dep_ranch = pkg://ranch master
+dep_ranch = git https://github.com/jinnipark/ranch.git master
 
 # Standard targets.
 
